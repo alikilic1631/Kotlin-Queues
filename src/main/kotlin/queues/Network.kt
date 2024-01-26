@@ -6,7 +6,6 @@ interface Acceptor<T> {
 
 interface Forwarder {
     fun forward() {
-
     }
 }
 
@@ -37,3 +36,4 @@ class Sink<T> : Acceptor<T> {
         return list
     }
 }
+
